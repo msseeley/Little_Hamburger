@@ -26,6 +26,7 @@ body{
 }
 
 .show-case{
+  /* transparency allowed by a value in color */
   background: var(--primary-color);
   color: #fff;
   height: 100vh;
@@ -42,4 +43,14 @@ body{
   width:100%;
   height: 100%;
   z-index: -1;
+}
+
+.show-case .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* centers container vertically */
+  justify-content: center;
+  /* centers text */
+  text-align: center;
 }
