@@ -81,3 +81,9 @@
   top: 0;
   transform: rotate(90deg);
 }
+
+/* rotate on hover when already selected */
+
+.menu-wrap .toggler:checked:hover + .hamburger > div{
+  transform: rotate(225deg);
+}
